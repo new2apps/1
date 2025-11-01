@@ -100,7 +100,7 @@
       allOffers.sort((a,b) => parseFloat(b.dataset.payout) - parseFloat(a.dataset.payout)).slice(0, 5).forEach(card => container.appendChild(card));
     }
     async function loadOffers() {
-      const apiKey = "36166|anu9SPwnp9FwJnYpSosicw1o6PBRjPwKcytAAaXi344f7bff";
+      const apiKey = "36196|TXw76oid0LOsxZOFAKPRffSUBEo5qqtu0XrEN4E137b55073";
       try {
         const ipRes = await fetch("https://api.ipify.org?format=json");
         const ipData = await ipRes.json();
